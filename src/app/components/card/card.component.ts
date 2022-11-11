@@ -44,8 +44,7 @@ export class CardComponent implements OnInit {
           }
           console.log(res.types)
           console.log(this.pokemon)
-        },
-        error: (err) => console.log(err)
+        }
       }
     )
   }
